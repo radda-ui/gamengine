@@ -1,0 +1,21 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+        },
+        {
+			"path": "C:\\Users\\salem\\AppData\\Roaming\\LOVE\\xgame",
+		},
+    ],
+    "build_systems":
+    [
+        {
+            "name": "Love2D",
+            "shell_cmd": "love ${project_path:${folder:${file_path}}}",
+            "working_dir": "${project_path:${folder}}",
+            "selector": "source.lua",
+            "shell":true,
+        }
+    ],
+}
